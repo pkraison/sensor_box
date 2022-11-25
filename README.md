@@ -6,7 +6,7 @@
 - Xsense Mti-300 IMU -  [datasheet](./docs/MTi-300.pdf)
 
 ## Connection and collecting data:
-- Connect to jetson using ssh, it is configured to connect the following wireless netowork (SSID: B3, Password: qwert123) this can be changed manually.
+- Connect to jetson using ssh, it is configured to connect to the following wireless netowork (SSID: B3, Password: qwert123) this can be changed manually.
 - Run the _sensor_launch.sh_ from the directory "something" to start up the sensors, pay attention to the terminal for error messages to make sure that the sensors started properly.
 - Run the _record.sh_ file in the same directory to start collection the sensor data into a bag file which will be saved in the same directory.
 - Once done press cntrl+c to stop the data collection.  
