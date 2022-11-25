@@ -17,7 +17,7 @@
 - 3D prints and Laser cutting can be done at [FABLAB - Tampere University](https://sites.tuni.fi/fablabtampere-en/).
 
 ## Notes:
-- VNC can be enabled by running the script _vnc.sh_ at "".  
+- For wireless display connection, VNC can be enabled by running the script _vnc.sh_ at "".  
 - Battery is removable and interchangable, the setup uses XT90 power connector.
 - Possible improvements for the design include:
 - - making sliding slots inside the case to fix Jetson's and cable's position.
