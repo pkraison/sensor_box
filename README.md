@@ -19,6 +19,7 @@
 ## Notes:
 - For wireless display connection, VNC can be enabled by running the script _vnc.sh_ at "".  
 - Battery is removable and interchangable, the setup uses XT90 power connector.
+- Use the battery_holider model as a basis for possible attachments to the body.
 - Possible improvements for the design include:
 - - making sliding slots inside the case to fix Jetson's and cable's position.
  - - including air vent cutouts aligned with jetson's fan placement.
