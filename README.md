@@ -6,8 +6,8 @@
 - Xsense Mti-300 IMU -  [datasheet](./docs/MTi-300.pdf)
 
 ## Connection and collecting data:
-- Connect to jetson using ssh, it is configured to connect to the following wireless netowork (SSID: B3, Password: qwert123) this can be changed manually.
-- Run the _sensor_launch.sh_ from the directory "something" to start up the sensors, pay attention to the terminal for error messages to make sure that the sensors started properly.
+- Connect to jetson using ssh (username: nvidia, password: nvidia) , it is configured to connect to the following wireless netowork (SSID: B3, Password: qwert123) this can be changed manually.
+- Run the _sensor_launch.sh_ from the directory _"data_collection/setup_2/"_ to start up the sensors, pay attention to the terminal for error messages to make sure that the sensors started properly.
 - Run the _record.sh_ file in the same directory to start collection the sensor data into a bag file which will be saved in the same directory.
 - Once done press cntrl+c to stop the data collection.  
 
@@ -17,7 +17,7 @@
 - 3D prints and Laser cutting can be done at [FABLAB - Tampere University](https://sites.tuni.fi/fablabtampere-en/).
 
 ## Notes:
-- For wireless display connection, VNC can be enabled by running the script _vnc.sh_ at "".  
+- For wireless display connection, VNC can be enabled by running the script _vnc.sh_ at "_"data_collection/_".  
 - Battery is removable and interchangable, the setup uses XT90 power connector.
 - Use the battery_holider model as a basis for possible attachments to the body.
 - Possible improvements for the design include:
